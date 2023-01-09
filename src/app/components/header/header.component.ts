@@ -26,7 +26,6 @@ export class HeaderComponent implements OnInit {
   constructor(private cartService: CartService) {}
 
   ngOnInit(): void {
-    throw new Error("Method not implemented.");
   }
 
   getTotal(items: Array<CartItem>): number {
